@@ -37,7 +37,7 @@ export class App extends Component {
     return (
       <div style={{ display: 'flex', justifyContent: 'center'}}>
         <Section title={'Please leave feedback'}>
-          <div style={{ display: 'flex', gap: '20px'}}>
+          <div style={{ display: 'flex', gap: '15px'}}>
             <FeedbackOptions options={this.increGoog} onLeaveFeedback={'Good'}/>
             <FeedbackOptions options={this.increNeutral} onLeaveFeedback={'Neutral'}/>
             <FeedbackOptions options={this.increBad} onLeaveFeedback={'Bad'}/>
