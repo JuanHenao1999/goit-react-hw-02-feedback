@@ -2,7 +2,7 @@ import { Component } from "react";
 
 export class Statistics extends Component {
   render() {
-    const {good, neutral, bad, total, poPercentage} = this.props;
+    const {good, neutral, bad, total, positivePercentage} = this.props;
     return (
       <div>
         <h2>Statistics</h2>
@@ -10,7 +10,7 @@ export class Statistics extends Component {
         <p>Neutral: {neutral}</p>
         <p>Bad: {bad}</p>
         <p>Total: {total}</p>
-        <p>Positive feedback: {poPercentage}%</p>
+        <p>Positive feedback: {positivePercentage}%</p>
       </div>
     );
   }

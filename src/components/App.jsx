@@ -47,7 +47,7 @@ export class App extends Component {
             neutral={this.state.neutral}
             bad={this.state.bad}
             total={this.countTotalFeedback()}
-            poPercentage={this.countPositiveFeedbackPercentage()}
+            positivePercentage={this.countPositiveFeedbackPercentage()}
           />}
           {this.countTotalFeedback() === 0 && (<Notification message= 'There is no feedback'/>)}
 
